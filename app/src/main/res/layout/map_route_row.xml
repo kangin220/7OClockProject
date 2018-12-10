@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:weightSum="10">
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/map_route_startPoint"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="startPoint"
+                android:textColor="#fff"/>
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/map_route_endPoint"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="endPoint"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="10">
+            <TextView
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="거리 : "
+                android:textColor="#fff"
+                android:gravity="center"/>
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/map_route_distance"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="distance"
+                android:textColor="#fff"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/logBoard"
+        android:title="로그게시판"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/removeLog"
+        android:title="로그 지우기"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/showFriend"
+        android:title="친구 위치 표시"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/showClub"
+        android:title="동호회 위치 표시"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/removeShow"
+        android:title="위치 표시 지우기"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/shareMyGPS"
+        android:title="위치 공유 OFF"
+        app:showAsAction="never"/>
+
+
+</menu>

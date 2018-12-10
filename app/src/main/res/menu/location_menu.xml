@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Seoul"
+        android:title="서울"
+        app:showAsAction='never'/>
+
+    <item
+        android:id="@+id/Suwon"
+        android:title="수원"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Busan"
+        android:title="부산"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/CheonAn"
+        android:title="천안"
+        app:showAsAction="never"/>
+
+</menu>

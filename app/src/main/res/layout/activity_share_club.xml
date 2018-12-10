@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="동호회 위치공유 게시판"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="#FF191C23"
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+        </LinearLayout>
+
+        <ListView
+            android:background="#FF303540"
+            android:id="@+id/share_club"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

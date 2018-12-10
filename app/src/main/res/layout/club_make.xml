@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="#66bdbdbd">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#FF191C23"
+            android:text="동호회 생성"
+            android:gravity="center"
+            android:textColor="#fff"/>
+        <EditText
+            android:id="@+id/clubNameEtext"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="동호회 이름"
+            android:layout_weight="4"
+            android:textColor="#2C3039"/>
+
+        <TextView
+            android:id="@+id/clubLocSpinText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:text="지역을 선택해주세요"
+            android:layout_weight="2"
+            android:textColor="#2C3039"/>
+        <Spinner
+            android:id="@+id/clubLocSpin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        android:background="#66bdbdbd"
+        android:weightSum="20">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="동호회 소개를 입력하세요"
+            android:textColor="#2C3039"/>
+        <EditText
+            android:id="@+id/clubIntroEtext"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:hint="동호회 소개"
+            android:inputType="textMultiLine"
+            android:layout_weight="17"
+            android:textColor="#2C3039"/>
+            <Button
+                android:id="@+id/clubMakeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#2C3039"
+                android:text="동호회 생성"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_weight="2"/>
+    </LinearLayout>
+
+
+</LinearLayout>
